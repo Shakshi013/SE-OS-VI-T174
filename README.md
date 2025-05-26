@@ -1,63 +1,75 @@
 🖥️ OS-Based Algorithm Visualiser
-This project is a comprehensive visualizer for key Operating System algorithms including CPU Scheduling, Page Replacement, Memory Management, and Disk Scheduling. It provides a clear, interactive, and animated representation of how these algorithms work, making it perfect for educational purposes and demonstrations.
+This project is a comprehensive visualizer for key Operating System algorithms, including CPU Scheduling, Page Replacement, Memory Management, and Disk Scheduling.
+It provides a clear, interactive, and animated representation of how these algorithms work — perfect for educational use and classroom demonstrations.
 
 🚀 Features
-🔄 CPU Scheduling Algorithms: FCFS, SJF, SRTF, Priority (Preemptive & Non-Preemptive), Round Robin, Multilevel Queue, Multilevel Feedback Queue.
+🔄 CPU Scheduling Algorithms
+FCFS, SJF, SRTF, Priority (Preemptive & Non-Preemptive), Round Robin, Multilevel Queue, Multilevel Feedback Queue.
 
-💾 Memory Management: First Fit, Best Fit, Worst Fit allocation visualizations.
+💾 Memory Management
+First Fit, Best Fit, Worst Fit allocation visualizations.
 
-📄 Page Replacement Algorithms: FIFO, LRU, Optimal, Second Chance.
+📄 Page Replacement Algorithms
+FIFO, LRU, Optimal, Second Chance.
 
-💽 Disk Scheduling Algorithms: FCFS, SSTF, SCAN, CSCAN, LOOK, CLOOK.
+💽 Disk Scheduling Algorithms
+FCFS, SSTF, SCAN, CSCAN, LOOK, CLOOK.
 
-📊 Real-time Gantt Chart visualizations and log explanations.
+📊 Real-time Gantt Chart Visualizations
+With logs explaining why each process/step was selected.
 
-📌 Dynamic GUI with interactive inputs and animated process execution.
+📌 Dynamic GUI
+Interactive inputs and animated execution for better understanding.
 
-🧪 Supports bulk testing with .txt input/output for algorithm verification.
+🧪 Bulk Testing Support
+Input/output testing using .txt files for validation and comparison.
 
 🔧 Core Components
-cpu_scheduling
+cpu_scheduling/
 Implements different CPU scheduling algorithms.
 
-Generates Gantt chart data and logs execution steps.
+Generates Gantt chart data and logs for execution steps.
 
-memory_management
-Visualizes memory block allocation based on different fit strategies.
+memory_management/
+Visualizes memory block allocation based on various fit strategies.
 
-page_replacement
+page_replacement/
 Simulates how pages are replaced in memory using classical algorithms.
 
-disk_scheduling
-Shows how disk head moves based on different disk access strategies.
+disk_scheduling/
+Shows how disk head moves based on different disk access algorithms.
 
+🛠️ Setup Instructions
 
-                                              🛠️ Setup Instructions
-    Clone the Repository
+1. Clone the Repository
 git clone https://github.com/Shakshi013/SE-OS-VI-T174.git
 cd SE-OS-VI-T174
 
-
-    Install Dependencies
+2. Install Dependencies
 pip install -r requirements.txt
 
-
-    Run the GUI
-
+3. Run the GUI
 python app.py
 
+🧪 How to Use
+Launch the GUI interface.
 
-    
-    
-  🧪 How to Use
-Choose the category (CPU/Page/Disk/Memory).
+Choose a category: CPU, Page, Disk, or Memory.
 
 Enter the number of processes/blocks/requests.
 
-Submit and watch the algorithm animate step-by-step.
+Click “Submit” and watch the animation step-by-step.
 
-View logs explaining why each step occurred.
+View the detailed log panel explaining every decision the algorithm makes.
 
 📌 Summary
-This project is a modular, extensible toolkit for visualizing key OS algorithms. Ideal for OS courses, presentations, and demos — helping you understand not just the output, but the why behind it.
+This project is a modular, interactive, and extensible toolkit for visualizing key Operating System algorithms.
+It's ideal for:
 
+OS practical sessions
+
+Demos during presentations
+
+Self-learning through animations and logs
+
+It helps you understand not just the output, but also the why behind every algorithmic decision.
