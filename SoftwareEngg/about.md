@@ -5,17 +5,17 @@ This project is a unified visualizer for core Operating System algorithms. It en
 ---
 
 os3/
-├── app.py                          # Main Flask application
-├── modules/                        # Contains standalone algorithm modules
-│   ├── cpu_scheduling.py           # CPU scheduling algorithms with Tkinter
-│   ├── memory_management.py        # Memory allocation strategies with Tkinter
-│   ├── page_replacement.py         # Page replacement algorithms with Tkinter
-│   └── disk_scheduling.py          # Disk scheduling simulations with Tkinter
-├── templates/
-│   └── index.html                  # Web UI template for Flask interface
-└── static/
-    ├── style.css                   # Styling for the web interface
-    └── script.js                   # JS-based interactivity for frontend
+├── app.py                          # Main Flask application\
+├── modules/                        # Contains standalone algorithm modules\
+│   ├── cpu_scheduling.py           # CPU scheduling algorithms with Tkinter\
+│   ├── memory_management.py        # Memory allocation strategies with Tkinter\
+│   ├── page_replacement.py         # Page replacement algorithms with Tkinter\
+│   └── disk_scheduling.py          # Disk scheduling simulations with Tkinter\
+├── templates/\
+│   └── index.html                  # Web UI template for Flask interface\
+└── static/\
+    ├── style.css                   # Styling for the web interface\
+    └── script.js                   # JS-based interactivity for frontend\
 
 ---
 
