@@ -12,10 +12,8 @@ os3/\
 │   ├── page_replacement.py \
 │   └── disk_scheduling.py \
 ├── templates/\
-│   └── index.html  \
-└── static/\
-    ├── style.css \
-    └── script.js \
+    └── index.html  \
+
 
 ---
 
