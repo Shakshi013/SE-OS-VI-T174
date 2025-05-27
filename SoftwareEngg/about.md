@@ -4,7 +4,7 @@ This project is a unified visualizer for core Operating System algorithms. It en
 
 ---
 
-os3/\
+SoftwareEngg/\
 ├── app.py \
 ├── modules/\
 │   ├── cpu_scheduling.py \
