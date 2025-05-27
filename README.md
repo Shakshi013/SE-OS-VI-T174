@@ -25,7 +25,8 @@ Interactive inputs and animated execution for better understanding.
 #### 🧪 Bulk Testing Support
 Input/output testing using .txt files for validation and comparison.
 
-#### 🔧 Core Components
+## 🔧 Core Components
+
   1. cpu_scheduling/  
       * Implements different CPU scheduling algorithms.
   
